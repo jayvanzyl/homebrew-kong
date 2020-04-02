@@ -27,7 +27,7 @@ class Openresty < Formula
     args = [
       "--prefix #{prefix}",
       "--openresty #{version}",
-      "--openssl 1.1.1d",
+      "--openssl 1.1.1f",
       "--luarocks 3.2.1",
       "-j #{ENV.make_jobs}"
     ]
